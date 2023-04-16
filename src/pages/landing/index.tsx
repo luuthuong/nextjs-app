@@ -2,7 +2,6 @@ import { Landing, getBlogDataPromise } from "@/features/landing";
 import { BlogType } from "@/shared/types";
 import { GetStaticProps } from "next";
 import React from "react";
-
 export const getStaticProps: GetStaticProps<{ data: BlogType[] }> = async (
     context
 ) => {
